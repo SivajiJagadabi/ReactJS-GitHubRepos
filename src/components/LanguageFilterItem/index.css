@@ -1,0 +1,43 @@
+/* Write your CSS here */
+.list-language {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.language {
+  font-size: 20px;
+  font-family: 'Roboto';
+  font-weight: 600;
+  padding: 20px;
+}
+
+.language-button {
+  cursor: pointer;
+  outline: none;
+  background-color: transparent;
+  border: none;
+  font-size: 18px;
+  font-family: 'Roboto';
+  font-weight: 600;
+  margin-right: 20px;
+}
+
+.active-btn {
+  color: #0284c7;
+  border: 1px solid #0284c7;
+  border-radius: 20px;
+  min-width: 80px;
+  height: 35px;
+}
+
+@media screen and (max-width: 768px) {
+  .language-button {
+    margin-right: 8px;
+    font-size: 15px;
+  }
+  .active-btn {
+    min-width: 60px;
+  }
+}
